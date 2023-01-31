@@ -3,9 +3,42 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid rgb(67, 163, 230);
+    padding: 20px;
+}
+#form-container label{
+    color:rgb(255,255,255);
+    font-weight: 700;
+    margin-top: 5px;
+}
+#form-container input{
+    margin-bottom: 5px;
+    width: 165px;
+}
+#form-container #comment{
+    height: 150px;
+} 
+#form-container label[for=updates]{
+    font-style: italic;
+}
+#form-container #updates{
+    width: auto;
+}
+#form-container button{
+    background-color: rgb(67, 163, 230);
+    border-radius: 8px;
+    font-weight: normal;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    padding: 4px;
+    margin-top: 5px;
+    font-size: 13px;
 }
