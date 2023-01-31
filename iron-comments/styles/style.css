@@ -21,9 +21,13 @@ body {
 #form-container input{
     margin-bottom: 5px;
     width: 165px;
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 2px;
 }
 #form-container #comment{
     height: 150px;
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 2px;
 } 
 #form-container label[for=updates]{
     font-style: italic;
