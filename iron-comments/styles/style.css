@@ -1,9 +1,13 @@
+/* Import font family */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
     background-color: rgb(25, 33, 41);
+    font-family: 'EB Garamond';
 }
 
 #form-container {
